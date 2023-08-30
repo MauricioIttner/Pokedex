@@ -6,7 +6,10 @@ const maxRecords = 151;
 const limit = 10;
 let offset = 0;
 
-function loadPokemonItens(offset, limit) {
+async function loadPokemonItens(offset, limit) {
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`);
+    const data = await response.json();
+    const pokemons = data.results;
     pokeapi.getPokemons(offset, limit).then((pokemons = []) => {
 
                 const newHtml = pokemons.map((pokemon) => `
