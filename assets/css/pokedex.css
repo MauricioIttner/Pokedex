@@ -1,0 +1,304 @@
+    .pokemons {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 6px;
+        margin: 0;
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    .normal {
+        background-color: #a6a877;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .grass {
+        background-color: #77c850;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .fire {
+        background-color: #ee7f30;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .water {
+        background-color: #678fee;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .electric {
+        background-color: #f7cf2e;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .ice {
+        background-color: #98d5d7;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .ground {
+        background-color: #dfbf69;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .flying {
+        background-color: #a98ff0;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .poison {
+        background-color: #a040a0;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .fighting {
+        background-color: #bf3029;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .psychic {
+        background-color: #f65687;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .dark {
+        background-color: #725847;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .rock {
+        background-color: #b8a137;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .bug {
+        background-color: #a8b720;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .ghost {
+        background-color: #6e5896;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .steel {
+        background-color: #b9b7cf;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .dragon {
+        background-color: #6f38f6;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .fairy {
+        background-color: #f9aec7;
+        padding: 3.5rem;
+        margin: -1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 550px;
+    }
+    
+    .pokemon {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-image: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png);
+        background-position: center;
+        background-blend-mode: color-dodge;
+        background-repeat: no-repeat;
+        background-size: 225px;
+    }
+    
+    .pokemon .number {
+        color: black;
+        opacity: .3;
+        text-align: right;
+        font-size: .625rem;
+    }
+    
+    .pokemon .name {
+        color: #0008;
+        margin-bottom: 0.25rem;
+    }
+    
+    .pokemon .name::first-letter {
+        text-transform: uppercase;
+    }
+    /*display(indica a forma que os elementos ficarão), flex(serve para dizer como os elementos ficarão), align(serve para alinhar itens),
+justify|(para alinhar os elementos a partir do flex) */
+    
+    .pokemon .detail {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .pokemon .detail .types {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    /*background(muda cor de fundo de algo), padding(define distancia entre algo e a borda), margin(margem), font-size(tamanho da fonte)
+border radius(arredonda os cantos)*/
+    
+    .pokemon .detail .types .type {
+        color: #000;
+        padding: .25rem .5rem;
+        margin: .25rem 0;
+        font-size: .625rem;
+        border-radius: 1rem;
+        filter: brightness(1.1);
+        text-align: center;
+    }
+    
+    .pokemon .detail img {
+        max-width: 100%;
+        height: 70px;
+    }
+    
+    .pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .pagination button {
+        padding: .25rem .5rem;
+        margin: .25rem 0;
+        font-size: .625rem;
+        color: #fff;
+        background-color: #6c79db;
+        border: none;
+        border-radius: 1rem;
+    }
+    /*(media screen) serve para redimensionar a pagina para diferentes dispositivos*/
+    
+    @media screen and (min-width: 380px) {
+        .pokemons {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+    @media screen and (min-width: 576px) {
+        .pokemons {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .pokemons {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
